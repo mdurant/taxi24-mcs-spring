@@ -1,0 +1,15 @@
+.metadata/.plugins/*
+.metadata/*
+.DS_Store
+.metadata/
+.mylyn/.taskListIndex/
+*.log
+.plugins/org.eclipse.m2e.core/nexus/
+*.swp
+.mylyn/*
+.plugins/org.eclipse.core.resources/.root/*.tree
+.markers
+.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+.plugins/org.eclipse.ui.workbench/workingsets.xml
+.metadata/.plugins/org.eclipse.core.resources/.projects/
+.plugins/org.eclipse.team.cvs.core
