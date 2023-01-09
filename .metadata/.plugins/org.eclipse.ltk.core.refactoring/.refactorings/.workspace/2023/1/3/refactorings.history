@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;taxi24-api-&apos; to &apos;taxi24-api-mcsrv-conductores&apos;" description="Rename resource &apos;taxi24-api-&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/taxi24-api-" name="taxi24-api-mcsrv-conductores" stamp="1673228248857" updateReferences="true"/>
+</session>
