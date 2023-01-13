@@ -77,7 +77,7 @@ public class Conductores {
 		return disponible;
 	}
 
-	public void setDisponoble(Boolean disponible) {
+	public void setDisponible(Boolean disponible) {
 		this.disponible = disponible;
 	}
 
@@ -88,7 +88,4 @@ public class Conductores {
 	public void setRadio3km(Boolean radio3km) {
 		this.radio3km = radio3km;
 	}
-	
-	
-
 }
