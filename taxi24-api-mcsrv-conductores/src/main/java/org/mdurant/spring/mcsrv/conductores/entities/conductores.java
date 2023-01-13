@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="conductores")
-public class conductores {
+public class Conductores {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,6 +26,12 @@ public class conductores {
 	
 	@Column(name = "codigo_ci", unique = true, nullable = false, length = 20)
 	private String ci_code;
+	
+	@Column(name ="disponible", unique = false)
+	private Boolean disponible;
+	
+	@Column(name ="radio3km", unique = false)
+	private Boolean radio3km;
 
 	public Long getId() {
 		return id;
@@ -65,6 +71,22 @@ public class conductores {
 
 	public void setCi_code(String ci_code) {
 		this.ci_code = ci_code;
+	}
+
+	public Boolean getDisponible() {
+		return disponible;
+	}
+
+	public void setDisponoble(Boolean disponible) {
+		this.disponible = disponible;
+	}
+
+	public Boolean getRadio3km() {
+		return radio3km;
+	}
+
+	public void setRadio3km(Boolean radio3km) {
+		this.radio3km = radio3km;
 	}
 	
 	
